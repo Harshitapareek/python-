@@ -8,7 +8,7 @@ list1=[]
 for i in adhoc:
    if(i>5):
     list.append(i)
-   elif(i>=2):
+   elif(i<=2):
     list1.append(i)
 print(list)
 print(list1)
