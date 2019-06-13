@@ -1,0 +1,14 @@
+problem5
+
+
+
+import datetime
+name=input("enter your name")
+currentTime=datetime.datetime.now()
+currentTime.hour
+if (currentTime.hour<12):
+   print("good morning")
+elif (currentTime.hour>=12 and currentTime.hour<16):
+   print("good afternoon")
+else:
+   print("good night")
